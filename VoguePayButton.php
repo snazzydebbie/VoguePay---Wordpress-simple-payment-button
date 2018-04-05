@@ -8,7 +8,7 @@ Plugin URI: https://voguepay.com/integration
 Description: The VoguePay Simple Payment Button plugin provides you with an easy PayPal payment solution. Simply add a VoguePay Simple Payment Button shortcode to your post or page and a PayPal Buy Now button will be published in place of the shortcode. To change the plugin's settings visit the <a href="./options-general.php?page=VoguePayButton.php" target="_self" >settings page.</a>
 Version: 1.0
 Author: Snazzy Debbie
-Author URI: http://afrisoft.net
+Author URI: https://github.com/snazzydebbie/VoguePay---Wordpress-simple-payment-button
 License: GPLv3 or later
 http://www.gnu.org/licenses/gpl-3.0.txt
 */
