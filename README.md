@@ -1,2 +1,0 @@
-# voguepay
-Payment Plugins
