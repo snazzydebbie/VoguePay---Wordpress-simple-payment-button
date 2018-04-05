@@ -55,12 +55,24 @@ if (!class_exists("VoguePayButton")) {
       <div class=wrap>
         <form method="post" action="<?php echo $_SERVER["REQUEST_URI"]; ?>">
           <h2>Vogue Pay "Buy Now" Button</h2>
-          <p>
-          Supported Currencies - NGN - Nigerian Naira,USD - US Dollars,GBP - British Pounds,EUR - Euri,ZAR - South african rand,GHS - Ghana Cedi
-          </p>
-          <p>
-          Example - [voguepay item="Simple Coffee Mug" price="100" cur="USD"]
-          </p>
+        
+          
+          <p>Plugin supports inline payment.</p>
+
+          <p> Supported Currencies </p>
+          <p>NGN - Nigerian Naira,</p>
+          <p> USD - US Dollars,</p>
+       <p> GBP - British Pounds,
+          <p> EUR - Euro,</p>
+          <p> ZAR - South african rand,</p>
+          <p> GHS - Ghana Cedi</p>
+
+        <p>Usage example - Include the code below in a post where you want the button to be displayed.</p>
+          <p>item - name of the product/item for same</p>
+          <p>price - Price of the product/item for sale</p>
+          <p>cur - Currency of product/item for sale.</p>
+          <p>[voguepay item="Simple Coffee Mug" price="100" cur="USD"]</p>
+          
           <h3>Your VoguePay Merchant ID</h3>
           <p>Enter your VoguePay Merchant ID, find it on the top right hand corner when you login to voguepay.com.</p>
           <input type="text" size="50" name="merchant_id" id="merchant_id" value="<?php _e(apply_filters('format_to_edit',$v_Options['merchant_id']), 'VoguePayButton'); ?>" />
