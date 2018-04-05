@@ -1,0 +1,2 @@
+Example - supported currencies - NGN - Nigerian Naira,USD - US Dollars,GBP - British Pounds,EUR - Euri,ZAR - South african rand,GHS - Ghana Cedi
+[voguepay item="Simple Coffee Mug" price="100" cur="USD"]
