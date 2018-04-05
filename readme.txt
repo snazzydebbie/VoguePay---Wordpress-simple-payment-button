@@ -1,3 +1,5 @@
+Plugin supports inline payment.
+
 Supported Currencies 
 NGN - Nigerian Naira,
 USD - US Dollars,
